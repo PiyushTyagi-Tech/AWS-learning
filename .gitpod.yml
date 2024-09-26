@@ -1,5 +1,8 @@
 
 tasks:
+  - name: utils
+    before: |
+      sudo apt-get install tree 
   - name: AWS-CLI
     before: |
       cd /workspace
